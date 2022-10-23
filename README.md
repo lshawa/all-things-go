@@ -30,3 +30,17 @@ var name = "Go Conference"
 ```
 
 ## Data Types in Go 
+Two most basic types: 
+1. Strings 
+- Strings are used for textual data. Defined with double quotes. 
+2. Integers
+- Represent who numbers, positive and negative. 
+
+Go is a statically typed language. You need to tell the Go compiler, the data type when declaring the variable. BUT Go can *infer* the tpe when you assign the value. 
+
+Example: 
+
+```go 
+	var userName string
+	var userTickets int
+```
